@@ -34,6 +34,7 @@
             
         }
 
+        @media screen and (min-width: 501px) {
         nav .logo {
             font-size: 15px;
         }
@@ -58,9 +59,10 @@
 
         .section {
             padding: 50px 20px;
-            margin: 3rem 3rem;
+            margin: 3rem ;
             display: flex;
             flex-direction: column;
+           justify-content: space-between;
             gap: 50px;
         }
         h1 {
@@ -114,6 +116,11 @@
     display: flex;
     justify-content: center;
 }
+.center2 {
+    display: flex;
+    padding-left: 10rem;
+   
+}
 
 .cont {
     
@@ -156,6 +163,153 @@
 
 
 
+        }
+    
+/********************MOBILE***********************/
+
+
+@media screen and (max-width: 700px) {
+
+        nav .logo {
+            font-size: 4px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 2px;
+            margin: 0;
+            display: flex;
+            gap: 8px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 8px;
+        }
+
+        .section {
+            padding: 10px 5px;
+            margin: 1rem 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        h1 {
+            margin-block-end: 0px;
+            font-size:18px;
+            letter-spacing: 0px;
+            font-family: 'GlitchDemo' , sans-serif;
+        }
+
+        .section h2 {
+            font-size:16px;
+            margin-bottom: 4px;
+            margin-top: -16px;
+           
+        }
+
+        .content {
+            display: flex;
+            gap: 10px;
+            flex-direction: column;
+            
+        }
+
+        .text {
+            flex: 1;
+            font-size: 12px;
+            padding-right: 5px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: justify;
+        }
+
+        .image-placeholder {
+            flex: 1;
+           margin-top: 0px;
+           
+            display: flex;
+            justify-content: center;
+           
+           
+        }
+
+        .image-placeholder img{
+          width: 270px;
+           
+        }
+
+        footer {
+            background: #202020;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 8px;
+            margin-top: 25px;
+        }
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.cont {
+    
+    display: flex;
+    justify-content: center;
+  
+    align-items: center;
+    padding: 10px;
+    
+}
+
+        .boton {
+    width:250px;
+    height: 50px; 
+    background-image: url('portada/boton1.png'); 
+    background-size: cover; 
+    background-position: center; /* Centra la imagen */
+    margin: 0rem;
+    padding: 0rem ;
+    border: none;
+    cursor: pointer;
+  
+
+    color: white; 
+        font-family: 'Roboto', sans-serif; 
+        font-size: 20px; 
+        font-weight: bold; 
+        text-align: center; /* Centra el texto horizontalmente */
+        line-height: 50px; /* Centra el texto verticalmente */
+      
+        cursor: pointer;
+        text-transform: uppercase; 
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.696); 
+        text-decoration: none; 
+}
+
+.boton:hover {
+    opacity: 0.8; /* Efecto al pasar el mouse */
+}
+
+
+
+        }
+
+    /* video responsivo */
+    .image-placeholder video {
+        width: 100%; 
+        height: auto; 
+        max-width: 300px; 
+    }
+    .image-placeholder {
+        text-align: center; 
+    }
 
 
     </style>
@@ -321,6 +475,27 @@
               </div>
         </div>
     </div>
+
+
+
+    <div class="section">
+        <!-- Sección Videojuego -->
+        <h1>Juego:</h1>
+        <h2></h2>
+        <div class="content">
+            <div class="text">
+              Creamos un juego donde se puede visualizar el cambio que atraviesa el personaje de nuestra historia
+            </div>
+            <div class="image-placeholder">
+                <img src="/pag/juego.png" alt="">
+            </div>
+        </div>
+        <div class="center2">
+        <a href="https://io-nauta.github.io/" class="boton">ir al juego</a>
+    </div>
+</div>
+
+
 
     <div class="section">
         <!-- Sección 5 -->

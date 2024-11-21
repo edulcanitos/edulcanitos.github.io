@@ -67,3 +67,56 @@ h2 {
 .boton:hover {
     opacity: 0.8; /* Efecto al pasar el mouse */
 }
+
+
+
+
+
+
+/********************MOBILE***********************/
+
+
+@media screen and (max-width: 700px) {
+
+
+
+    h1 {
+        font-family: 'GlitchDemo' , sans-serif;
+        font-size: 24px;
+        } 
+    h2 {
+        font-family: 'Roboto' , sans-serif;
+        font-size: 14px;
+        } 
+    
+    
+    
+    .boton {
+        width: 100px; /* Ancho del botón */
+        height: 50px; /* Alto del botón */
+        background-image: url('portada/boton.png'); 
+        background-size: cover; 
+        background-position: center; /* Centra la imagen */
+     
+        border: none;
+        cursor: pointer;
+    
+        color: white; 
+            font-family: 'Roboto', sans-serif; 
+            font-size: 18px; 
+            font-weight: bold; 
+            text-align: center; /* Centra el texto horizontalmente */
+            line-height: 80px; /* Centra el texto verticalmente */
+          
+            cursor: pointer;
+            text-transform: uppercase; /* Convierte el texto a mayúsculas */
+            box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.696); 
+            text-decoration: none; 
+    }
+    
+    .boton:hover {
+        opacity: 0.8; /* Efecto al pasar el mouse */
+    }
+    
+
+}
