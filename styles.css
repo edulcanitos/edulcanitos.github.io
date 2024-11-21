@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'GlitchDemo';
+  src: url(font/GlitchDemoRegular-2Oave.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+section.seccion-noticias h2 {
+font-family: 'GlitchDemo' , sans-serif;
+font-size: 4rem;
+} 
+
+ body {
+    font-family: Arial, sans-serif;
+
+      color: white; 
+      margin: 0;
+      padding: 0;
+  }
+
+.contenedor-todo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/***************************DESKTOP*****************************/
+
+
+
+@media screen and (min-width: 501px) {
+
+
+/* NAV */
+
+header {
+  background: linear-gradient(0deg, rgba(42,25,47,0) 0%, rgba(42,25,47,0.7455503319491859) 44%, rgba(26,3,33,0.9724410882517069) 96%, rgba(25,2,32,1) 100%);
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+
+
+
+.publicidad{
+ 
+  padding: 0;
+
+ width: 73rem;
+
+}
+.publicidad img{
+ width: 100%;
+
+}
+
+
+footer {
+  background-color: rgb(12, 13, 51);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+ 
+}
+
+footer p {
+  font-size: 16px;
+}
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************MOBILE*****************************/
+
+
+
+
+  @media screen and (max-width: 700px) {
+
+  
+    
+  
+/* NAV */
+
+  header {
+    background: linear-gradient(0deg, rgba(42,25,47,0) 0%, rgba(42,25,47,0.7455503319491859) 44%, rgba(26,3,33,0.9724410882517069) 96%, rgba(25,2,32,1) 100%);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0.5rem;
+    font-size: 12px;
+}
+h1 {
+    margin: 0;
+    font-size: 12px;
+}
+
+
+  
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    
+  }
+ 
+ 
+  .publicidad{
+    margin-left: -5rem;
+    padding: 0;
+    text-align: center;
+     
+  
+  }
+  .publicidad img{
+   width: 100%;
+  
+  }
+
+  footer {
+    background-color: rgb(12, 13, 51);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+
+    }
+
+
+
+
+
+
